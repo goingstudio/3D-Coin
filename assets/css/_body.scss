@@ -1,3 +1,273 @@
 @charset 'UTF-8';
+/* Hero-Banner */
 
-/* Home Slide */
+.home-banner {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    .banner-item {
+        width: 100%;
+        padding: 25vh 0;
+        position: relative;
+        z-index: 0;
+        background-image: url("../img/banner2.jpeg");
+        background-position: left;
+        background-size: cover;
+        background-position-x: 0em;
+        background-position-y: 0em;
+        background-repeat: no-repeat;
+        img {
+            width: 100%;
+            height: auto;
+        }
+        &:before {
+            display: block;
+            content: '';
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0);
+            /* IE6-9 */
+        }
+        .home-title {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            background-color: transparent;
+            text-align: center;
+            .thumb-home {
+                padding: 8vh 0 0 0;
+                margin: 0;
+                img {
+                    max-width: 150px;
+                }
+            }
+            .title {
+                padding: 2vh 0 0 0;
+                font: 400 normal 6rem/1 $pri_font;
+                color: #4a4a4a;
+                &.-bold {
+                    font: 700 normal 6rem/0.5 $pri_font;
+                }
+            }
+            .sub-title {
+                font: 700 normal 1em $pri-font;
+                color: #4a4a4a;
+                letter-spacing: 0.2em;
+            }
+        }
+    }
+}
+
+
+/* About-Us */
+
+.about-us {
+    padding: 10vh 0 15vh 0;
+    margin: -10vh 0 0 0;
+    position: relative;
+    .section-header{
+        padding: 0 0 10vh 0;
+        text-align: center;
+        .start{
+            font: 700 normal 1.5rem $pri_font;
+            letter-spacing: 0.2em;
+        }
+        .item-circle {
+            padding-top: 28px;
+            text-align: center;
+            i {
+                font-size: 30px;
+                color: white;
+            }
+        }
+        .circle {
+            &.-blue {
+                position: relative;
+                z-index: 3;
+                margin-top: 2vw;
+                margin-left: 3.6vw;
+                width: 80px;
+                height: 80px;
+                -moz-border-radius: 75px;
+                -webkit-border-radius: 75px;
+                border-radius: 75px;
+                background-color: $pri_color;
+            }
+        }
+        .hr-vertical {
+            text-align: center;
+        }
+    }   
+    .about-item {
+        padding: 0 0 0 8vw;
+        margin: 0;
+        text-align: right;
+        .title {
+            font: 700 normal 2rem/1.1 $pri_font;
+            color: $pri_color;
+        }
+        .desc {
+            padding: 1vh 0;
+            font: 400 normal 1rem $pri_font;
+        }
+    }
+}
+
+
+/* Dowload-Now */
+
+.dowload-now {
+    margin: 0;
+    padding: 10vh 0 0 0;
+    position: relative;
+    .items {
+        display: flex;
+        flex-wrap: wrap;
+        .dowload-item {
+            width: 50%;
+            padding: 9vh 0;
+            position: relative;
+            z-index: 9999;
+            color: white;
+            .title-dowload {
+                position: absolute;
+                width: 100%;
+                padding: 16vh 10vw 16vh 5vw;
+                margin: -25vh 0 0 4vw;
+                background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 1%, rgba(0, 0, 0, 0.8) 98%);
+                /* FF3.6-15 */
+                background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 1%, rgba(0, 0, 0, 0.8) 98%);
+                /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 1%, rgba(0, 0, 0, 0.8) 98%);
+                /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2545454', endColorstr='#f2545454', GradientType=0);
+                /* IE6-9 */
+                .title {
+                    font: 400 normal 4rem/0.5 $pri_font;
+                    color: #ffffff;
+                    &.-bold {
+                        font: 700 normal 4rem/0.5 $pri_font;
+                    }
+                }
+                .sub-title {
+                    font: 400 normal 2rem/2 $pri_font;
+                    color: #ffffff;
+                }
+                .desc {
+                    padding: 2vh 0;
+                    font: 400 normal 1rem $pri_font;
+                    color: #ffffff;
+                }
+                .button.is-primary {
+                    width: 300px;
+                    padding: 4vh 0;
+                    margin: 3vh 0 0 0;
+                    font: 400 normal 1rem $pri_font;
+                    background-color: $pri_color;
+                    border-color: transparent;
+                    border-radius: 0;
+                    color: #fff;
+                    text-align: left;
+                }
+            }
+            .item-right{
+                position: absolute;
+                width: 50%;
+                padding: 0;
+                margin:  -15vh auto;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+            }
+        }
+    }
+}
+
+/* Learn-Solidity */
+
+.learn-solidity {
+    padding: 10vh 0;
+    margin: 0;
+    position: relative;
+    .learn-header {
+        padding: 5vh 0 5vh 0;
+        margin: 0;
+        text-align: center;
+        .title {
+            font: 700 normal 2rem/0.2 $pri_font;
+            color: $pri_color;
+        }
+        .sub-title {
+            font: 700 normal 1rem $pri_font;
+            color: #4a4a4a;
+            letter-spacing: 0.1em;
+        }
+    }
+    .learn-item {
+        padding: 5vh 0;
+        .caption {
+            width: 100%;
+            position: relative;
+            padding: 0 8vw 2vh 0;
+            margin: 10vh 0 0 5vw;
+            text-align: left;
+            background: white;
+            &:before {
+                display: block;
+                content: '';
+                width: 400px;
+                height: 420px;
+                z-index: -100;
+                position: absolute;
+                margin: 0px auto;
+                top: -10vh;
+                left: -40vh;
+                right: 0;
+                background-color: transparent;
+                border: 10px solid $pri-color;
+            }
+            &.-right {
+                width: 100%;
+                position: relative;
+                padding: 0 0 2vh 8vw;
+                margin: 10vh 0 0 -5vw;
+                text-align: right;
+                background: white;
+                &:before {
+                    display: block;
+                    content: '';
+                    width: 400px;
+                    height: 420px;
+                    z-index: -100;
+                    position: absolute;
+                    margin: 0px auto;
+                    top: -10vh;
+                    left: 0;
+                    right: -40vh;
+                    background-color: transparent;
+                    border: 10px solid $pri-color;
+                }
+            }
+            .title {
+                font: 700 normal 2rem $pri_font;
+                color: $pri_color;
+            }
+            .desc {
+                padding: 1vh 0;
+                font: 400 normal 1rem $pri_font;
+                color: #4a4a4a;
+            }
+        }
+    }
+}
