@@ -137,7 +137,7 @@ a {
       position: relative;
       z-index: 3;
       margin-top: 2vw;
-      margin-left: 3.6vw;
+      margin-left: 3.68vw;
       width: 80px;
       height: 80px;
       -moz-border-radius: 75px;
@@ -241,6 +241,10 @@ a {
       letter-spacing: 0.1em; }
   .learn-solidity .learn-item {
     padding: 5vh 0; }
+    .learn-solidity .learn-item .thumb {
+      padding-left: 15px; }
+      .learn-solidity .learn-item .thumb.-right {
+        padding-left: 0; }
     .learn-solidity .learn-item .caption {
       width: 100%;
       position: relative;
@@ -419,7 +423,7 @@ a {
     color: #9b9b9b; }
   .number-title .no-title {
     white-space: nowrap;
-    padding: 0 0 0 1vw;
+    padding: 0 0 0 17px;
     font: 700 normal 3rem "montserrat";
     color: #9b9b9b;
     position: relative; }
@@ -457,12 +461,12 @@ hr {
   hr.line-vertical {
     position: absolute;
     width: 1px;
-    margin: 0 auto;
+    margin: 0px auto;
     left: 0;
     right: 0;
     background: #dbdbdb;
     border: none;
-    height: 655px;
+    height: 90%;
     background: #d3d3d3; }
 
 @media only screen and (max-width: 991px) {

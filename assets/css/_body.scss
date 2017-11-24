@@ -95,7 +95,7 @@
                 position: relative;
                 z-index: 3;
                 margin-top: 2vw;
-                margin-left: 3.6vw;
+                margin-left:3.68vw; 
                 width: 80px;
                 height: 80px;
                 -moz-border-radius: 75px;
@@ -216,6 +216,12 @@
     }
     .learn-item {
         padding: 5vh 0;
+        .thumb{
+            padding-left: 15px;
+            &.-right{
+                padding-left: 0;
+            }
+        }
         .caption {
             width: 100%;
             position: relative;

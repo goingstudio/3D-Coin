@@ -101,7 +101,7 @@
     }
     .no-title{
         white-space: nowrap;
-        padding: 0 0 0 1vw;
+        padding: 0 0 0 17px;
         font: 700 normal 3rem $pri-font;
         color: #9b9b9b;
         position: relative;
@@ -148,12 +148,12 @@ hr {
     &.line-vertical{
         position: absolute;
         width:1px; 
-        margin: 0 auto;
+        margin: 0px auto;
         left: 0;
         right: 0;
         background: #dbdbdb;
         border: none;     
-        height:655px;
+        height:90%;
         background: #d3d3d3;
     }
 }
