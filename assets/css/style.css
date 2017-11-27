@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
 @import url(animate.css);
 html,
 body {
@@ -11,7 +12,7 @@ a {
   position: fixed;
   z-index: 100;
   height: 100%;
-  background: rgba(255, 255, 255, 0.5); }
+  background: rgba(0, 0, 0, 0.2); }
   .sidebar-left i {
     margin: 15px;
     font-size: 24px;
@@ -52,7 +53,7 @@ a {
   .section-coin.-about {
     top: 20%; }
   .section-coin .title {
-    font: 700 normal 1rem "montserrat";
+    font: 700 normal 1rem "Poppins";
     letter-spacing: 0.7em;
     color: #9b9b9b; }
 
@@ -98,12 +99,12 @@ a {
           max-width: 150px; }
       .home-banner .banner-item .home-title .title {
         padding: 2vh 0 0 0;
-        font: 400 normal 6rem/1 "montserrat";
+        font: 400 normal 6rem/1 "Poppins";
         color: #4a4a4a; }
         .home-banner .banner-item .home-title .title.-bold {
-          font: 700 normal 6rem/0.5 "montserrat"; }
+          font: 700 normal 6rem/0.5 "Poppins"; }
       .home-banner .banner-item .home-title .sub-title {
-        font: 700 normal 1em "montserrat";
+        font: 700 normal 1em "Poppins";
         color: #4a4a4a;
         letter-spacing: 0.2em; }
 
@@ -116,7 +117,7 @@ a {
     padding: 0 0 10vh 0;
     text-align: center; }
     .about-us .section-header .start {
-      font: 700 normal 1.5rem "montserrat";
+      font: 700 normal 1.5rem "Poppins";
       letter-spacing: 0.2em; }
     .about-us .section-header .item-circle {
       padding-top: 28px;
@@ -142,11 +143,11 @@ a {
     margin: 0;
     text-align: right; }
     .about-us .about-item .title {
-      font: 700 normal 2rem/1.1 "montserrat";
+      font: 700 normal 2rem/1.1 "Poppins";
       color: #4a90e2; }
     .about-us .about-item .desc {
       padding: 1vh 0;
-      font: 400 normal 1rem "montserrat"; }
+      font: 400 normal 1rem "Poppins"; }
 
 /* Dowload-Now */
 .dowload-now {
@@ -183,22 +184,22 @@ a {
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2545454', endColorstr='#f2545454', GradientType=0);
         /* IE6-9 */ }
         .dowload-now .items .dowload-item .title-dowload .title {
-          font: 400 normal 4rem/0.5 "montserrat";
+          font: 400 normal 4rem/0.5 "Poppins";
           color: #ffffff; }
           .dowload-now .items .dowload-item .title-dowload .title.-bold {
-            font: 700 normal 4rem/0.5 "montserrat"; }
+            font: 700 normal 4rem/0.5 "Poppins"; }
         .dowload-now .items .dowload-item .title-dowload .sub-title {
-          font: 400 normal 2rem/2 "montserrat";
+          font: 400 normal 2rem/2 "Poppins";
           color: #ffffff; }
         .dowload-now .items .dowload-item .title-dowload .desc {
           padding: 2vh 0;
-          font: 400 normal 1rem "montserrat";
+          font: 400 normal 1rem "Poppins";
           color: #ffffff; }
         .dowload-now .items .dowload-item .title-dowload .button.is-primary {
           width: 300px;
           padding: 4vh 0;
           margin: 3vh 0 0 0;
-          font: 400 normal 1rem "montserrat";
+          font: 400 normal 1rem "Poppins";
           background-color: #4a90e2;
           border-color: transparent;
           border-radius: 0;
@@ -224,10 +225,10 @@ a {
     margin: 0;
     text-align: center; }
     .learn-solidity .learn-header .title {
-      font: 700 normal 2rem/0.2 "montserrat";
+      font: 700 normal 2rem/0.2 "Poppins";
       color: #4a90e2; }
     .learn-solidity .learn-header .sub-title {
-      font: 700 normal 1rem "montserrat";
+      font: 700 normal 1rem "Poppins";
       color: #4a4a4a;
       letter-spacing: 0.1em; }
   .learn-solidity .learn-item {
@@ -277,11 +278,11 @@ a {
           background-color: transparent;
           border: 10px solid #4a90e2; }
       .learn-solidity .learn-item .caption .title {
-        font: 700 normal 2rem "montserrat";
+        font: 700 normal 2rem "Poppins";
         color: #4a90e2; }
       .learn-solidity .learn-item .caption .desc {
         padding: 1vh 0;
-        font: 400 normal 1rem "montserrat";
+        font: 400 normal 1rem "Poppins";
         color: #4a4a4a; }
 
 /* Main-Footer */
@@ -298,20 +299,20 @@ a {
       max-width: 100px; }
     .main-footer .footer-item .title {
       padding: 2vh 0 0 0;
-      font: 700 normal 1.2rem "montserrat";
+      font: 700 normal 1.2rem "Poppins";
       color: #ffffff; }
     .main-footer .footer-item .desc {
       padding: 2vh 20vw 5vh 20vw;
-      font: 400 normal 1rem "montserrat";
+      font: 400 normal 1rem "Poppins";
       color: #9b9b9b; }
     .main-footer .footer-item .see-more {
-      font: 400 normal 1rem "montserrat";
+      font: 400 normal 1rem "Poppins";
       letter-spacing: 0.2em;
       color: #ffffff; }
     .main-footer .footer-item .copyright {
       padding: 4vh 0; }
       .main-footer .footer-item .copyright p {
-        font: 700 normal 0.9rem "montserrat";
+        font: 700 normal 0.9rem "Poppins";
         color: #9b9b9b; }
 
 /* Off Canvas Style */
@@ -366,12 +367,12 @@ a {
   .readmore .text {
     white-space: nowrap;
     margin-right: 10px;
-    font: 700 normal 1rem "montserrat";
+    font: 700 normal 1rem "Poppins";
     color: #000000; }
   .readmore .no-title {
     white-space: nowrap;
     margin-left: 10px;
-    font: 700 normal 3rem "montserrat";
+    font: 700 normal 3rem "Poppins";
     color: #4a90e2;
     position: relative; }
     .readmore .no-title:before {
@@ -409,13 +410,13 @@ a {
   .number-title .text {
     white-space: nowrap;
     margin-left: 45px;
-    font: 400 normal 1rem "montserrat";
+    font: 400 normal 1rem "Poppins";
     letter-spacing: 0.2em;
     color: #9b9b9b; }
   .number-title .no-title {
     white-space: nowrap;
     padding: 0 0 0 17px;
-    font: 700 normal 3rem "montserrat";
+    font: 700 normal 3rem "Poppins";
     color: #9b9b9b;
     position: relative; }
     .number-title .no-title.-blue {
@@ -500,12 +501,12 @@ hr {
             max-width: 120px; }
         .home-banner .banner-item .home-title .title {
           padding: 0;
-          font: 400 normal 5rem/1 "montserrat";
+          font: 400 normal 5rem/1 "Poppins";
           color: #4a4a4a; }
           .home-banner .banner-item .home-title .title.-bold {
-            font: 700 normal 5rem/0.5 "montserrat"; }
+            font: 700 normal 5rem/0.5 "Poppins"; }
         .home-banner .banner-item .home-title .sub-title {
-          font: 700 normal 1em "montserrat";
+          font: 700 normal 1em "Poppins";
           color: #4a4a4a;
           letter-spacing: 0.2em; }
   /* About-Us */
@@ -520,11 +521,11 @@ hr {
       margin: 0;
       text-align: center; }
       .about-us .about-item .title {
-        font: 700 normal 2rem/1.1 "montserrat";
+        font: 700 normal 2rem/1.1 "Poppins";
         color: #4a90e2; }
       .about-us .about-item .desc {
         padding: 1vh 0;
-        font: 400 normal 1rem "montserrat"; }
+        font: 400 normal 1rem "Poppins"; }
   /* Dowload-Now */
   .dowload-now {
     margin: 0;
@@ -550,22 +551,22 @@ hr {
           padding: 16vh 10vw 16vh 5vw;
           margin: -20vh 0 0 0; }
           .dowload-now .items .dowload-item .title-dowload .title {
-            font: 400 normal 4rem/0.5 "montserrat";
+            font: 400 normal 4rem/0.5 "Poppins";
             color: #ffffff; }
             .dowload-now .items .dowload-item .title-dowload .title.-bold {
-              font: 700 normal 4rem/0.5 "montserrat"; }
+              font: 700 normal 4rem/0.5 "Poppins"; }
           .dowload-now .items .dowload-item .title-dowload .sub-title {
-            font: 400 normal 2rem/2 "montserrat";
+            font: 400 normal 2rem/2 "Poppins";
             color: #ffffff; }
           .dowload-now .items .dowload-item .title-dowload .desc {
             padding: 2vh 0;
-            font: 400 normal 1rem "montserrat";
+            font: 400 normal 1rem "Poppins";
             color: #ffffff; }
           .dowload-now .items .dowload-item .title-dowload .button.is-primary {
             width: 300px;
             padding: 4vh 0;
             margin: 3vh 0 0 0;
-            font: 400 normal 1rem "montserrat";
+            font: 400 normal 1rem "Poppins";
             background-color: #4a90e2;
             border-color: transparent;
             border-radius: 0;
@@ -590,10 +591,10 @@ hr {
       margin: 0;
       text-align: center; }
       .learn-solidity .learn-header .title {
-        font: 700 normal 2rem/0.2 "montserrat";
+        font: 700 normal 2rem/0.2 "Poppins";
         color: #4a90e2; }
       .learn-solidity .learn-header .sub-title {
-        font: 700 normal 1rem "montserrat";
+        font: 700 normal 1rem "Poppins";
         color: #4a4a4a;
         letter-spacing: 0.1em; }
     .learn-solidity .learn-item {
@@ -612,11 +613,11 @@ hr {
           .learn-solidity .learn-item .caption.-right:before {
             display: none; }
         .learn-solidity .learn-item .caption .title {
-          font: 700 normal 2rem "montserrat";
+          font: 700 normal 2rem "Poppins";
           color: #4a90e2; }
         .learn-solidity .learn-item .caption .desc {
           padding: 2vh 0;
-          font: 400 normal 1rem "montserrat";
+          font: 400 normal 1rem "Poppins";
           color: #4a4a4a; }
   /* Main-Footer */
   .main-footer {
@@ -629,7 +630,7 @@ hr {
       color: #ffffff; }
       .main-footer .footer-item .desc {
         padding: 2vh 5vw 5vh 5vw;
-        font: 400 normal 1rem "montserrat";
+        font: 400 normal 1rem "Poppins";
         color: #9b9b9b; } }
 
 @media only screen and (min-width: 992px) {

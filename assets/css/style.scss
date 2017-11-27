@@ -11,7 +11,7 @@ $dark-color: #000;
 $light-color: #FFF;
 
 // Font
-$pri-font:'montserrat';
+$pri-font:'Poppins';
 
 html,
 body {
@@ -26,6 +26,9 @@ a {
 
 
 // Import
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
 @import '_head';
 @import '_body';
 @import '_foot';
